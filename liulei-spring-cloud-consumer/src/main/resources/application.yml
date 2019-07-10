@@ -1,0 +1,20 @@
+spring:
+  application:
+    name: liulei-spring-cloud-consumer
+    # 数据库配置
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/crm
+    username: root
+    password: 123456
+server:
+  port: 7902
+eureka:
+  client:
+    #    healthcheck:
+    #      enabled: true
+    serviceUrl:
+      defaultZone: http://user:password123@localhost:8761/eureka
+  instance:
+    prefer-ip-address: true
+
