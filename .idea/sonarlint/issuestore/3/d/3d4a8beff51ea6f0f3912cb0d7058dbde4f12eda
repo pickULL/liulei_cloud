@@ -1,10 +1,0 @@
-
-=squid:S1068"&Remove this unused "ID" private field.(İ‹™Ñ
-Ksquid:S1068"/Remove this unused "CREATE_TIME" private field.(èØ‡ûÿÿÿÿ
-hsquid:S1192"QUse already-defined constant 'UPDATE_TIME' instead of duplicating its value here.(Øóº›
-isquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(™—Çá8¿º·¹½-
-isquid:CommentedOutCodeLine&"<This block of commented-out lines of code should be removed.(™—Çá8ƒå·¹½-
-msquid:S1192"QUse already-defined constant 'CREATE_TIME' instead of duplicating its value here.(Ô•©Äùÿÿÿÿ
-Ksquid:S1068"/Remove this unused "CREATE_USER" private field.(Ê±Ü¾ÿÿÿÿÿ
-Fsquid:S1068"/Remove this unused "UPDATE_TIME" private field.(ô›ƒş
-Fsquid:S1068"/Remove this unused "UPDATE_USER" private field.(¡â†ë
