@@ -15,6 +15,10 @@
         <java.version>1.8</java.version>
     </properties>
 
+    <modules>
+        <module>liulei-spring-cloud-config</module>
+        <module>liulei-spring-cloud-xxljob</module>
+    </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
