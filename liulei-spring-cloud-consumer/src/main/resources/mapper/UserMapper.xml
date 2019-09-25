@@ -11,6 +11,10 @@
             id =#{id}
     </select>
 
+    <select id="getAll" resultType="com.liulei.cloud.consumer.liuleispringcloudconsumer.entity.User">
+        select * from user
+    </select>
+
 
 
 </mapper>

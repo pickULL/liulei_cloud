@@ -1,34 +1,26 @@
 package com.liulei.cloud.consumer.liuleispringcloudconsumer.entity;
 
+import com.alibaba.excel.annotation.ExcelProperty;
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+import java.io.Serializable;
+
 /**
  * @author Vanessa
  */
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
+public class User implements Serializable {
 
-public class User {
+    //@ExcelProperty(value = "id",index = 0)
     private Long id;
+    //@ExcelProperty(value = "姓名",index = 1)
     private String name;
-
-    public Long getId() {
-        return id;
-    }
-
-    public void setId(Long id) {
-        this.id = id;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public User(Long id, String name) {
-        this.id = id;
-        this.name = name;
-    }
-
-    public User() {
-    }
+    //@ExcelProperty(value = "年龄",index = 2)
+    private Integer age;
+    //@ExcelProperty(value = "描述",index = 3)
+    private String desci;
 }
