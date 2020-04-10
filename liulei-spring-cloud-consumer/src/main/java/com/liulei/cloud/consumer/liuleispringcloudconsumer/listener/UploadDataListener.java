@@ -29,6 +29,10 @@ public class UploadDataListener extends AnalysisEventListener<UserModel> {
     private static final int BATCH_COUNT = 5;
     List<User> list = new ArrayList<>();
 
+//    private IUserService userService;
+//    public UploadDataListener(IUserService userService){
+//        this.userService = userService;
+//    }
 //    @Autowired
 //    private IUserService userService;
 

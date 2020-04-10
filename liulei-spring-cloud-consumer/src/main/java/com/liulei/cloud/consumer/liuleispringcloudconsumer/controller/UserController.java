@@ -12,6 +12,8 @@ import com.liulei.cloud.consumer.liuleispringcloudconsumer.entity.User;
 import com.liulei.cloud.consumer.liuleispringcloudconsumer.entity.UserModel;
 import com.liulei.cloud.consumer.liuleispringcloudconsumer.listener.UploadDataListener;
 import com.liulei.cloud.consumer.liuleispringcloudconsumer.service.IUserService;
+import freemarker.template.Configuration;
+import freemarker.template.Template;
 import org.apache.poi.ss.usermodel.FillPatternType;
 import org.apache.poi.ss.usermodel.IndexedColors;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -21,10 +23,10 @@ import org.springframework.web.multipart.MultipartFile;
 import javax.servlet.ServletOutputStream;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import java.io.File;
+import java.io.FileWriter;
 import java.io.IOException;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
+import java.util.*;
 
 /**
  * @author Vanessa
@@ -81,7 +83,8 @@ public class UserController {
         //--------
         EasyExcel.write(outputStream,UserModel.class)
                 .registerWriteHandler(horizontalCellStyleStrategy)
-                .sheet("moban")
+                .sheet(2,"moban")
+
                 .doWrite(all);
     }
 
@@ -93,4 +96,6 @@ public class UserController {
                 .doRead();
         return "success";
     }
+
+
 }

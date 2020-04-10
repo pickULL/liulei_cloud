@@ -1,0 +1,13 @@
+
+squid:UselessImportCheck"ORemove this unused import 'com.alibaba.excel.write.builder.ExcelWriterBuilder'.(©ª Åıÿÿÿÿ8úŠï½Ö-
+]squid:UselessImportCheck"-Remove this unused import 'java.util.Arrays'.(î–˜Éüÿÿÿÿ8úŠï½Ö-
+xsquid:UselessImportCheck"HRemove this unused import 'com.alibaba.excel.write.metadata.WriteSheet'.(Ó§Êóøÿÿÿÿ8úŠï½Ö-
+osquid:UselessImportCheck"?Remove this unused import 'com.alibaba.excel.EasyExcelFactory'.(Íî¨şÿÿÿÿ8úŠï½Ö-
+[squid:UselessImportCheck"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ8úŠï½Ö-
+esquid:UselessImportCheck":Remove this unused import 'com.alibaba.excel.ExcelWriter'.(²âÖ8úŠï½Ö-
+msquid:UselessImportCheck"BRemove this unused import 'javax.servlet.http.HttpServletRequest'.(ø©¹…8úŠï½Ö-
+ksquid:S3252R"HUse static access with "com.alibaba.excel.EasyExcelFactory" for "write".(ªßßƒüÿÿÿÿ8úŠï½Ö-
+jsquid:S3252["GUse static access with "com.alibaba.excel.EasyExcelFactory" for "read".(ûÆşúÿÿÿÿ8úŠï½Ö-
+nsquid:CommentedOutCodeLineA"<This block of commented-out lines of code should be removed.(§›³şÿÿÿÿ8úŠï½Ö-
+isquid:CommentedOutCodeLineC"<This block of commented-out lines of code should be removed.(Ò¬¹8úŠï½Ö-
+isquid:CommentedOutCodeLineF"<This block of commented-out lines of code should be removed.(€Ã¼û8úŠï½Ö-

@@ -6,6 +6,8 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="liulei-spring-cloud-admin" />
+        <module name="liulei-spring-cloud-biz" />
         <module name="liulei-spring-cloud-config" />
         <module name="liulei-spring-cloud-consumer" />
         <module name="liulei-spring-cloud-eureka" />

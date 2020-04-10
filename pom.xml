@@ -18,6 +18,8 @@
     <modules>
         <module>liulei-spring-cloud-config</module>
         <module>liulei-spring-cloud-xxljob</module>
+        <module>liulei-spring-cloud-admin</module>
+        <module>liulei-spring-cloud-biz</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
